@@ -38,7 +38,7 @@ const ResumeSearch = () => {
   const [filterSidebar, setFilterSidebar] = useState(false)
   const [detailsSidebar, setDetailsSidebar] = useState(false)
   const [selectedCandidate, setSelectedCandidate] = useState(null)
-  const itemsPerPage = 8 // Changed to 8 cards per page
+  const itemsPerPage = 10 // Changed to 8 cards per page
 
   const [filters, setFilters] = useState({
     skills: "",
@@ -590,7 +590,7 @@ const ResumeSearch = () => {
             <p className="text-gray-400">No candidates found.</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
             {paginatedCandidates.map((candidate) => (
               <motion.div
                 key={candidate.id}

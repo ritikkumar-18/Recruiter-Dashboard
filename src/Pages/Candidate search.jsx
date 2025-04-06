@@ -643,7 +643,7 @@ function Candidate() {
 
   return (
     <div className="flex-1 overflow-auto relative z-10 bg-gray-900 min-h-screen scroll-hidden">
-      <Header title="Shortlisted" />
+      <Header title="Selected Users" />
       
 
       <motion.div

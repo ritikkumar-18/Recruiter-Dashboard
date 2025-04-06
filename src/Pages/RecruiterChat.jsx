@@ -431,7 +431,7 @@ const RecruiterChat = () => {
       >
         {/* Sidebar - Contacts List */}
         {(showChatList || !isMobile) && (
-          <div className="w-full md:w-96 bg-gray-800 border-r border-gray-700 flex flex-col h-full">
+          <div className=" md:w-96 sm:w-80 bg-gray-800 border-r border-gray-700 flex flex-col h-full">
             {/* User Profile Header */}
             <div className="p-3 bg-gray-800 flex justify-between items-center border-b border-gray-700">
               <div className="flex items-center">

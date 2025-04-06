@@ -49,7 +49,7 @@ const Header = ({ title }) => {
           <h1 className="md:text-2xl sm:text-xl font-semibold text-gray-100">{title}</h1>
 
           
-          <div className="flex items-center gap-4 md:mr-64 sm:mr-20">
+          <div className="flex items-center gap-4 md:mr-64 sm:mr-32 mr-16">
             
             <div
               className="relative"

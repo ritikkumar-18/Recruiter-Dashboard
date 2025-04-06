@@ -97,7 +97,7 @@ const Recruit = () => {
   const [showEmojiPicker, setShowEmojiPicker] = useState(false)
   const [editMode, setEditMode] = useState(false)
   const [currentPage, setCurrentPage] = useState(1)
-  const [applicantsPerPage] = useState(4)
+  const [applicantsPerPage] = useState(10)
   const [showSlider, setShowSlider] = useState(false)
   const [shortlistedRecruiters, setShortlistedRecruiters] = useState([])
   const [activeFilter, setActiveFilter] = useState("All")

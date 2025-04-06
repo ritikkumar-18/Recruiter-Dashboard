@@ -6,6 +6,7 @@ import { Toaster, toast } from "react-hot-toast"
 import EmojiPicker from "emoji-picker-react"
 import Header from "../Common/Header"
 
+
 const SupportChat = () => {
   const [messages, setMessages] = useState([])
   const [newMessage, setNewMessage] = useState("")
@@ -267,7 +268,7 @@ const SupportChat = () => {
             className="md:px-4 md:py-3 sm:px-2 sm:py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition-colors disabled:bg-gray-600 disabled:cursor-not-allowed"
             aria-label="Send message"
           >
-            <Send className="w-5 h-5 sm:w-5 sm:h-5" />
+            <Send className="w-10 h-6 sm:w-5 sm:h-5" />
           </button>
 
           {/* Clear Chat Button */}
@@ -276,7 +277,7 @@ const SupportChat = () => {
             className="md:px-4 md:py-3 sm:px-2 sm:py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors"
             aria-label="Clear chat"
           >
-            <Trash2 className="w-5 h-5 sm:w-5 sm:h-5" />
+            <Trash2 className="w-10 h-6 sm:w-5 sm:h-5" />
           </button>
         </div>
       </div>
