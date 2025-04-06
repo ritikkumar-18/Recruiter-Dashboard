@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from "react"
 import { ChevronDown, Search, Menu, X } from "lucide-react"
-import Header from "../Common/Header"
+
 import { motion } from "framer-motion"
+import Header from "../Common/Header"
 
 const Askedquestion = () => {
   const faqCategories = [

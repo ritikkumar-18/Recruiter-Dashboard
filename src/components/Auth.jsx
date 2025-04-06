@@ -14,7 +14,7 @@ import pointSound from "/blip.mp3"
 import ResumeSearch from "../Pages/Resume"
 import BuySubscription from "../Pages/BuySubscription"
 import Template from "../Pages/Template"
-import FeedbackandReview from "./HelpDesk/FQ"
+
 import Askedquestion from "./HelpDesk/Askedquestion"
 import SupportChat from "./HelpDesk/SupportChat"
 import Profile from "./Profile/Profile"
@@ -25,6 +25,7 @@ import RecruiterChat from "../Pages/RecruiterChat"
 import SubAdmin from "../Pages/SubAdmin"
 import Payment from "../Pages/Payment"
 import HRM from "../Pages/HRM"
+import FeedbackandReview from "./HelpDesk/FQ"
 
 
 function Auth() {
@@ -342,7 +343,7 @@ function RecruiterDashboard({ onLogout }) {
         <Route path="/buysubscription" element={<BuySubscription />} />
         <Route path="/template" element={<Template/>} />
         
-        <Route path="/helpdesk/feedback" element={<FeedbackandReview />} />
+        <Route path="/helpdesk/feedback" element={<FeedbackandReview/>} />
         <Route path="/helpdesk/faq" element={<Askedquestion />} />
         <Route path="/helpdesk/support-chat" element={<SupportChat />} />
         <Route path="/payment" element={<Payment />} />

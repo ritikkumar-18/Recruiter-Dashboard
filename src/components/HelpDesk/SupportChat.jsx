@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Smile, Paperclip, Send, Trash2, ImageIcon, X } from "lucide-react"
-import Header from "../Common/Header"
+
 import { Toaster, toast } from "react-hot-toast"
 import EmojiPicker from "emoji-picker-react"
+import Header from "../Common/Header"
 
 const SupportChat = () => {
   const [messages, setMessages] = useState([])
