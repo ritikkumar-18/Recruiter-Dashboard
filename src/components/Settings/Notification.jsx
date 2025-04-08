@@ -20,9 +20,7 @@ const Notification = () => {
         <ToggleSwitch label ={"Email Notifications"}
         isOn={notifications.email}
         onToggle={() => setNotifications({ ...notifications, email: !notifications.email})}/>
-        {/* <ToggleSwitch label ={"SMS Notifications"}
-        isOn={notifications.sms}
-        onToggle={() => setNotifications({ ...notifications, sms: !notifications.sms })}/> */}
+        
 
     
       </Settingpage1>

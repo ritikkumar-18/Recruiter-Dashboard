@@ -228,7 +228,7 @@ const Notification = () => {
 
   return (
     <div className="flex-1 overflow-auto relative bg-gray-700 min-h-screen text-gray-100">
-      <Header title="Recruiter Notifications" />
+      <Header title="Company's Notifications" />
 
       {/* Filter and Mark All as Read */}
       <div className="flex justify-between items-center p-4 md:p-6 flex-wrap gap-3 bg-gray-800 border-b border-gray-600">

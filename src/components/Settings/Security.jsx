@@ -1,4 +1,3 @@
-// 
 import React, { useState } from 'react';
 import Settingpage1 from './Settingpage1';
 import { Lock } from 'lucide-react';

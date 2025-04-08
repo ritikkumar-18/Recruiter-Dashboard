@@ -1,9 +1,6 @@
-
-
 import { useState } from "react"
 import { toast, Toaster } from "react-hot-toast"
 import { motion } from "framer-motion"
-
 import { Routes, Route, useNavigate } from "react-router-dom"
 import OverviewRecruit from "../Pages/Overviewrecruit"
 import RecruiterSidebar from "./Recrutiersidebar"
@@ -14,7 +11,6 @@ import pointSound from "/blip.mp3"
 import ResumeSearch from "../Pages/Resume"
 import BuySubscription from "../Pages/BuySubscription"
 import Template from "../Pages/Template"
-
 import Askedquestion from "./HelpDesk/Askedquestion"
 import SupportChat from "./HelpDesk/SupportChat"
 import Profile from "./Profile/Profile"
@@ -23,7 +19,6 @@ import Settings from "../Pages/Settings"
 import Logout from "../Pages/Logout"
 import RecruiterChat from "../Pages/RecruiterChat"
 import SubAdmin from "../Pages/SubAdmin"
-import Payment from "../Pages/Payment"
 import HRM from "../Pages/HRM"
 import FeedbackandReview from "./HelpDesk/FQ"
 
@@ -338,15 +333,12 @@ function RecruiterDashboard({ onLogout }) {
         <Route path="/job-opening" element={<Jobopening/>} />
         <Route path="/candidate" element={<Candidate/>} />
         <Route path="/jobopening" element={<Jobopening />} />
-        
         <Route path="/resume" element={<ResumeSearch/>} />
         <Route path="/buysubscription" element={<BuySubscription />} />
         <Route path="/template" element={<Template/>} />
-        
         <Route path="/helpdesk/feedback" element={<FeedbackandReview/>} />
         <Route path="/helpdesk/faq" element={<Askedquestion />} />
         <Route path="/helpdesk/support-chat" element={<SupportChat />} />
-        <Route path="/payment" element={<Payment />} />
         <Route path="/hrm" element={<HRM />} />
         <Route path="/subadmin" element={<SubAdmin/>} />
         <Route path="/chat" element={<RecruiterChat />} />
